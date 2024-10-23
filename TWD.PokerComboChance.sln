@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TWD.PokerComboChance.Calculators", "src\TWD.PokerComboChance.Calculators\TWD.PokerComboChance.Calculators.csproj", "{A01BC48A-6218-4B09-B121-F7488EE8C039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{55BDE893-5CB2-4A6A-849A-259A2FD24E11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5C4B53E9-700A-40A6-85C4-0A1D6A088B2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{F1D77E52-EFBB-4243-8389-3420C1794EE2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TWD.PokerComboChance.ConsoleView", "src\TWD.PokerComboChance.ConsoleView\TWD.PokerComboChance.ConsoleView.csproj", "{C9D0E122-C6A2-4F0D-9A3F-9ED7E54B23B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWD.PokerComboChance.Core", "src\TWD.PokerComboChance.Core\TWD.PokerComboChance.Core.csproj", "{9B5A92C7-00EC-466F-B858-242131D1AD3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A01BC48A-6218-4B09-B121-F7488EE8C039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01BC48A-6218-4B09-B121-F7488EE8C039}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01BC48A-6218-4B09-B121-F7488EE8C039}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01BC48A-6218-4B09-B121-F7488EE8C039}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9D0E122-C6A2-4F0D-9A3F-9ED7E54B23B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D0E122-C6A2-4F0D-9A3F-9ED7E54B23B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D0E122-C6A2-4F0D-9A3F-9ED7E54B23B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D0E122-C6A2-4F0D-9A3F-9ED7E54B23B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B5A92C7-00EC-466F-B858-242131D1AD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B5A92C7-00EC-466F-B858-242131D1AD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B5A92C7-00EC-466F-B858-242131D1AD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B5A92C7-00EC-466F-B858-242131D1AD3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A01BC48A-6218-4B09-B121-F7488EE8C039} = {55BDE893-5CB2-4A6A-849A-259A2FD24E11}
+		{C9D0E122-C6A2-4F0D-9A3F-9ED7E54B23B1} = {5C4B53E9-700A-40A6-85C4-0A1D6A088B2F}
+		{9B5A92C7-00EC-466F-B858-242131D1AD3E} = {F1D77E52-EFBB-4243-8389-3420C1794EE2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5299DE3-EF0D-4EA9-BE4F-81882FEFCB42}
+	EndGlobalSection
+EndGlobal
