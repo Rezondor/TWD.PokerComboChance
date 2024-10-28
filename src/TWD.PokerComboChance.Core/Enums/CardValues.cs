@@ -6,6 +6,11 @@
 public enum CardValues
 {
     /// <summary>
+    /// Пустая карта
+    /// </summary>
+    None = 0,
+
+    /// <summary>
     /// Два
     /// </summary>
     Two = 2,

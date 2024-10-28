@@ -3,7 +3,7 @@
 /// <summary>
 /// Комбинации
 /// </summary>
-public enum Combinations: byte
+public enum CardCombinations
 {
     /// <summary>
     /// Старшая карта
@@ -53,5 +53,5 @@ public enum Combinations: byte
     /// <summary>
     /// Флеш рояль
     /// </summary>
-    FiveOfKind = 9
+    RoyalFlush = 9
 }

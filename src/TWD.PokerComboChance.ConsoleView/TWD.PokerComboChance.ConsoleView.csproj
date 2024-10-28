@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TWD.PokerComboChance.Application\TWD.PokerComboChance.Application.csproj" />
+    <ProjectReference Include="..\TWD.PokerComboChance.Calculators\TWD.PokerComboChance.Calculators.csproj" />
+    <ProjectReference Include="..\TWD.PokerComboChance.Core\TWD.PokerComboChance.Core.csproj" />
+  </ItemGroup>
+
 </Project>

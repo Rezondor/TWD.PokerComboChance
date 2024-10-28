@@ -3,7 +3,7 @@
 /// <summary>
 /// Масти карт
 /// </summary>
-public enum Suits : byte
+public enum CardSuits
 {
     /// <summary>
     /// Все масти карт
@@ -12,20 +12,20 @@ public enum Suits : byte
     /// <summary>
     /// Черви
     /// </summary>
-    Hearts,
+    Hearts = 1,
     
     /// <summary>
     /// Бубны
     /// </summary>
-    Diamonds,
+    Diamonds = 2,
     
     /// <summary>
     /// Крести
     /// </summary>
-    Clubs,
+    Clubs = 3,
 
     /// <summary>
     /// Пики
     /// </summary>
-    Spades
+    Spades = 4,
 }
