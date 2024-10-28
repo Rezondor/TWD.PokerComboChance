@@ -1,14 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Library</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\TWD.PokerComboChance.Application\TWD.PokerComboChance.Application.csproj" />
     <ProjectReference Include="..\TWD.PokerComboChance.Core\TWD.PokerComboChance.Core.csproj" />
   </ItemGroup>
 
